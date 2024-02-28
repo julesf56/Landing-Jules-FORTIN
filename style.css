@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localien - Soutenez les producteurs locaux</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="aos.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        header {
+            background-color: #28a745;
+            color: #fff;
+            padding: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p.lead {
+            font-size: 1.25rem;
+        }
+
+        #fonctionnalites {
+            background-color: #f8f9fa;
+            padding: 4rem 0;
+        }
+
+        .card {
+            border: none;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-title {
+            color: #007bff;
+        }
+
+        .card-text {
+            color: #6c757d;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #pitch {
+            background-color: #17a2b8;
+            color: #fff;
+            padding: 4rem 0;
+        }
+
+        footer {
+            background-color: #28a745;
+            color: #fff;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="display-4">Localiens</h1>
+    <p class="lead">Soutenez les producteurs locaux et recevez des récompenses !</p>
+</header>
+
+<section id="fonctionnalites" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4" data-aos="fade-up">Rejoignez nous</h2>
+        <div class="row">
+            <!-- ... (Card components remain unchanged) -->
+        </div>
+    </div>
+</section>
+
+<!-- ... (Remaining sections remain unchanged) -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/aos/2.3.1/aos.js"></script>
+<script>
+    AOS.init();
+
+    // ... (JavaScript functions remain unchanged)
+</script>
+<!-- Ajoutez vos scripts JavaScript personnalisés ici -->
+
+</body>
+</html>
